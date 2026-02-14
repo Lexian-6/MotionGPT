@@ -1,22 +1,27 @@
-tensorboard
+# Core training / logging
 pytorch_lightning
 torchmetrics
+tensorboard
 omegaconf
 shortuuid
-chumpy
-transformers
-diffusers
-einops
 wandb
 rich
-matplotlib
 
-# for visualization
-smplx==0.1.28
-trimesh==3.9.24
-joblib==1.2.0
+# Compatibility pins for MotionGPT web demo (validated)
+numpy==1.23.5
+gradio==3.50.2
+transformers==4.30.2
+huggingface-hub==0.16.4
+tokenizers==0.13.3
+opencv-python-headless<4.9
+scikit-image<0.22
+gdown>=5.2.1
+
+# MotionGPT dependencies
+chumpy
+einops
+matplotlib
 h5py
-scikit-image
 spacy
 ftfy
 more-itertools
@@ -24,4 +29,9 @@ natsort
 pyrender
 moviepy
 librosa
+
+# Visualization
+smplx==0.1.28
+trimesh==3.9.24
+joblib==1.2.0
 triangle==20220202

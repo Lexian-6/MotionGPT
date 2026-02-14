@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+.venv_mgpt/
+
+# Runtime/model artifacts
+cache/
+checkpoints/
+deps/
+
+# Cluster / local logs
+*.OU
+*.ER
+
+# OS/editor noise
+.DS_Store
+.ipynb_checkpoints/
